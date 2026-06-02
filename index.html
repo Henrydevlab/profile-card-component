@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Mentor Profile Card Component challenge solution.">
+  <meta name="author" content="henry">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Frontend Mentor | Profile card component">
+  <meta property="og:description" content="A fully responsive profile card component built with custom CSS variables, logical properties, and semantic HTML.">
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Frontend Mentor | Profile card component">
+  <meta name="twitter:description" content="A fully responsive profile card component built with custom CSS variables, logical properties, and semantic HTML.">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Profile card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="container">
+    <article class="card" aria-label="User Profile Card">
+      
+      <div class="card__header" role="presentation"></div>
+
+      <div class="card__avatar-wrapper">
+        <img class="card__avatar" src="./images/image-victor.jpg" alt="Portrait of Victor Crest">
+      </div>
+
+      <div class="card__info">
+        <h1 class="card__title">
+          Victor Crest <span class="card__age" aria-label="26 years old">26</span>
+        </h1>
+        <p class="card__location">London</p>
+      </div>
+
+      <hr class="card__divider">
+
+      <ul class="card__stats" aria-label="User engagement metrics">
+        <li class="card__stat-item">
+          <span class="card__stat-value">80K</span>
+          <span class="card__stat-label">Followers</span>
+        </li>
+        <li class="card__stat-item">
+          <span class="card__stat-value">803K</span>
+          <span class="card__stat-label">Likes</span>
+        </li>
+        <li class="card__stat-item">
+          <span class="card__stat-value">1.4K</span>
+          <span class="card__stat-label">Photos</span>
+        </li>
+      </ul>
+
+    </article>
+  </main>
+
+  <footer class="attribution">
+    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>.</p>
+    <p>Coded by <a href="https://github.com/Henrydevlab">Henry</a>.</p>
+  </footer>
+
+</body>
+</html>
